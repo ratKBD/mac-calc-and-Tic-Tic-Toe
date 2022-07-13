@@ -57,7 +57,7 @@ function TicTacToe() {
       >
         <div className={`${styles.borderBox}`}>
           <Row>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeLeftTop} ${boxValue[0]} d-flex align-items-center justify-content-center`}
                 value={boxValue[0]}
@@ -71,7 +71,7 @@ function TicTacToe() {
                 {boxValue[0]}
               </button>
             </Col>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeCenterTop} d-flex align-items-center justify-content-center`}
                 value={boxValue[1]}
@@ -81,7 +81,7 @@ function TicTacToe() {
                 {boxValue[1]}
               </button>
             </Col>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeRightTop} d-flex align-items-center justify-content-center`}
                 value={boxValue[2]}
@@ -93,7 +93,7 @@ function TicTacToe() {
             </Col>
           </Row>
           <Row>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeLeft} d-flex align-items-center justify-content-center`}
                 value={boxValue[3]}
@@ -103,7 +103,7 @@ function TicTacToe() {
                 {boxValue[3]}
               </button>
             </Col>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSize} d-flex align-items-center justify-content-center`}
                 value={boxValue[4]}
@@ -113,7 +113,7 @@ function TicTacToe() {
                 {boxValue[4]}
               </button>
             </Col>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeRight} d-flex align-items-center justify-content-center`}
                 value={boxValue[5]}
@@ -125,7 +125,7 @@ function TicTacToe() {
             </Col>
           </Row>
           <Row>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeLeftBottom} d-flex align-items-center justify-content-center`}
                 value={boxValue[6]}
@@ -135,7 +135,7 @@ function TicTacToe() {
                 {boxValue[6]}
               </button>
             </Col>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeBottom} d-flex align-items-center justify-content-center`}
                 value={boxValue[7]}
@@ -145,7 +145,7 @@ function TicTacToe() {
                 {boxValue[7]}
               </button>
             </Col>
-            <Col xs={0} sm={0} md={8} lg={8} xl={8}>
+            <Col xs={8} sm={8} md={8} lg={8} xl={8}>
               <button
                 className={`${styles.buttonSizeRightBottom} d-flex align-items-center justify-content-center`}
                 value={boxValue[8]}

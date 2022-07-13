@@ -40,7 +40,7 @@ function Icalc() {
 
           <div className={`${styles.calcNumBox}`}>
             <Row>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.calcGray} ${styles.button}`}
                   onClick={() => {
@@ -52,7 +52,7 @@ function Icalc() {
                   {selectedNum === 0 ? "AC" : "C"}
                 </button>
               </Col>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.calcGray} ${styles.button}`}
                   onClick={() => setSelectedNum(selectedNum * -1)}
@@ -60,7 +60,7 @@ function Icalc() {
                   +/-
                 </button>
               </Col>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   className={`d-flex align-items-center justify-content-center  ${styles.calcBox} ${styles.calcGray} ${styles.button}`}
                   // onClick={() => {
@@ -73,7 +73,7 @@ function Icalc() {
                   %
                 </button>
               </Col>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.calcOrange} ${styles.button}`}
                   // onClick={() => {
@@ -88,14 +88,14 @@ function Icalc() {
               </Col>
             </Row>
             <Row>
-              <Col xs={0} sm={0} md={18} lg={18} xl={18}>
+              <Col xs={18} sm={18} md={18} lg={18} xl={18}>
                 <Row>
                   {num.map((data, i) => (
                     <Col
                       className={`d-flex align-items-center justify-content-center `}
                       key={i}
-                      xs={0}
-                      sm={0}
+                      xs={8}
+                      sm={8}
                       md={8}
                       lg={8}
                       xl={8}
@@ -112,7 +112,7 @@ function Icalc() {
                   ))}
                 </Row>
               </Col>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.calcOrange} ${styles.button}`}
                   // onClick={() => {
@@ -150,7 +150,7 @@ function Icalc() {
               </Col>
             </Row>
             <Row>
-              <Col xs={0} sm={0} md={12} lg={12} xl={12}>
+              <Col xs={12} sm={12} md={12} lg={12} xl={12}>
                 <button
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.button}`}
                   style={{
@@ -163,7 +163,7 @@ function Icalc() {
                   0
                 </button>
               </Col>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.calcLightGray} ${styles.button}`}
                   onClick={() => setFilterNum([...filterNum, "."])}
@@ -171,7 +171,7 @@ function Icalc() {
                   .
                 </button>
               </Col>
-              <Col xs={0} sm={0} md={6} lg={6} xl={6}>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6}>
                 <button
                   style={{ borderBottomRightRadius: "10px" }}
                   className={`d-flex align-items-center justify-content-center ${styles.calcBox} ${styles.calcOrange} ${styles.button}`}
